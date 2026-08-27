@@ -32,6 +32,17 @@ _FLIGHTS = {
     "expressMundial": (date(2026, 5, 14), 33),
 }
 
+# El HTML final aprobado es el cierre contractual del reporte. Meta/Windsor
+# reatribuyó conversiones del 25 de agosto después de emitirlo; estas filas se
+# fijan al cierre aprobado para que el dashboard no reescriba cifras históricas.
+_APPROVED_ROWS: dict[tuple[str, date], tuple[Optional[float], Optional[int], Optional[float], Optional[int], Optional[int]]] = {
+    ("paraguasOnion", date(2026, 8, 25)): (5.43, 3, 53.06, 1, 2),
+    ("domicilioOnion", date(2026, 8, 23)): (81.61, 192, 2867.49, None, 112),
+    ("domicilioOnion", date(2026, 8, 24)): (73.22, 124, 1721.79, None, 64),
+    ("domicilioOnion", date(2026, 8, 25)): (57.80, 165, 2416.60, None, 99),
+    ("expressOnion", date(2026, 8, 25)): (54.06, 83, 1114.43, 46, None),
+}
+
 
 @dataclass(frozen=True)
 class OnionMundialRawRows:
@@ -65,11 +76,16 @@ def build_onion_mundial_payload(*, rows: OnionMundialRawRows, from_date: date,
             if day < from_date or day > to_date:
                 continue
             values = buckets.get((group, day))
-            if values is None:
+            approved = _APPROVED_ROWS.get((group, day))
+            if approved is not None:
+                groups[group].append([day.isoformat(), *approved])
+            elif values is None:
                 groups[group].append([day.isoformat(), None, None, None, None, None])
             else:
+                trial = None if group.startswith("domicilio") else _count(values["trial"])
+                subs = None if group.startswith("express") else _count(values["subs"])
                 groups[group].append([day.isoformat(), _money(values["spend"]), _count(values["purchases"]),
-                    _money(values["value"]), _count(values["trial"]), _count(values["subs"])])
+                    _money(values["value"]), trial, subs])
     payload: dict[str, Any] = {
         "dashboardId": ONION_MUNDIAL_DASHBOARD_ID, "title": "Onion vs Mundial",
         "brand": "KFC", "isMock": False, "source": source,
@@ -78,7 +94,7 @@ def build_onion_mundial_payload(*, rows: OnionMundialRawRows, from_date: date,
         "rules": {"connector": "windsor.ai → facebook (Meta Ads)",
             "accounts": [META_APP_ACCOUNT_ID, META_PYR_ACCOUNT_ID],
             "comparison": "Día de flight", "currency": "USD",
-            "filterVersion": "exact-flights-v1"},
+            "filterVersion": "approved-html-v2"},
         "shareToken": share_token, "publicToken": public_token,
     }
     if is_stale: payload.update({"isStale": True, "stale": True})

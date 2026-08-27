@@ -21,7 +21,7 @@ def normalize_onion_mundial_range(from_date: Optional[date], to_date: Optional[d
 def get_onion_mundial_dashboard(db: Session, settings: Settings, *, from_date=None, to_date=None, force_refresh=False, public_token=None):
     start,end=normalize_onion_mundial_range(from_date,to_date,settings); snap=latest_onion_mundial_snapshot(db,start,end)
     if (snap and not force_refresh
-        and snap.payload_json.get("rules", {}).get("filterVersion") == "exact-flights-v1"
+        and snap.payload_json.get("rules", {}).get("filterVersion") == "approved-html-v2"
         and datetime.now(timezone.utc)-_utc(snap.source_updated_at) <= timedelta(seconds=settings.cache_ttl_seconds)):
         return _prepare(db,dict(snap.payload_json),public_token)
     try: return _prepare(db,refresh_onion_mundial_dashboard(db,settings,from_date=start,to_date=end),public_token)
