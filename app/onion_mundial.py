@@ -23,13 +23,19 @@ _ZERO = Decimal("0")
 # Las seis series del reporte tienen flights distintos. Windsor conserva las
 # campañas después de terminar el flight, por eso no basta con buscar las
 # palabras ONION/MUNDIAL: hacerlo mezcla meses, adquisición y retención.
-_FLIGHTS = {
-    "paraguasOnion": (date(2026, 8, 7), 19),
-    "paraguasMundial": (date(2026, 5, 13), 19),
-    "domicilioOnion": (date(2026, 7, 24), 33),
-    "domicilioMundial": (date(2026, 5, 14), 33),
-    "expressOnion": (date(2026, 7, 24), 33),
-    "expressMundial": (date(2026, 5, 14), 33),
+#
+# El flight NO tiene fecha de cierre fija: cada serie arranca en su fecha propia
+# y sigue sumando días mientras el ad set siga corriendo con el mismo nombre
+# (ver _classify) y haya filas nuevas de Windsor hasta `to_date`. Antes tenía un
+# largo fijo (19/33 días) que congelaba el reporte en un "cierre contractual";
+# se sacó a pedido para que el dashboard avance dia a dia, no solo hasta esa foto.
+_FLIGHT_STARTS = {
+    "paraguasOnion": date(2026, 8, 7),
+    "paraguasMundial": date(2026, 5, 13),
+    "domicilioOnion": date(2026, 7, 24),
+    "domicilioMundial": date(2026, 5, 14),
+    "expressOnion": date(2026, 7, 24),
+    "expressMundial": date(2026, 5, 14),
 }
 
 # El HTML final aprobado es el cierre contractual del reporte. Meta/Windsor
@@ -70,7 +76,10 @@ def build_onion_mundial_payload(*, rows: OnionMundialRawRows, from_date: date,
         bucket["value"] += _decimal(row, "action_values_omni_purchase")
         bucket["trial"] += _decimal(row, "conversions_start_trial_total", "conversions_start_trial_mobile_app")
         bucket["subs"] += _decimal(row, "conversions_subscribe_total", "conversions_subscribe_mobile_app")
-    for group, (start, length) in _FLIGHTS.items():
+    for group, start in _FLIGHT_STARTS.items():
+        if to_date < start:
+            continue
+        length = (to_date - start).days + 1
         for offset in range(length):
             day = date.fromordinal(start.toordinal() + offset)
             if day < from_date or day > to_date:
@@ -132,8 +141,10 @@ def _classify(row: dict[str, Any]) -> Optional[str]:
 
 
 def _is_flight_day(group: str, day: date) -> bool:
-    start, length = _FLIGHTS[group]
-    return start <= day < date.fromordinal(start.toordinal() + length)
+    """Solo exige que el dia sea posterior al arranque propio de la serie -sin techo-, para no
+    contar como parte del flight una fila de Windsor de ANTES de que ese ad set empezara a
+    correr (dos series arrancan meses distintas)."""
+    return day >= _FLIGHT_STARTS[group]
 
 
 def _norm(value: str) -> str:
