@@ -96,6 +96,20 @@ def require_dashboard_role(
     return user
 
 
+def require_kfc_reporte_role(
+    user: AuthUser = Depends(get_current_user),
+    settings: Settings = Depends(get_settings),
+) -> AuthUser:
+    """Reporte KFC · Autorápido y Helados: solo el rol `kfchiden` (KFC_REPORTE_ROLES), no Planners/admin."""
+    allowed = settings.kfc_reporte_role_set
+    if not {role.lower() for role in user.roles}.intersection(allowed):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Insufficient role",
+        )
+    return user
+
+
 def _get_jwks_client(url: str, timeout_seconds: float) -> PyJWKClient:
     cache_key = f"{url}|{timeout_seconds}"
     if cache_key not in _jwks_clients:

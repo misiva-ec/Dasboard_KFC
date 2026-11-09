@@ -1,0 +1,1018 @@
+{
+ "title": "Reporte KFC · Autorápido y Helados",
+ "updatedAt": "2026-11-09T16:41:00Z",
+ "datasets": {
+  "campanas": [
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Noches de Autorápido · Store Visit",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "205.02",
+    "impressions": "515384",
+    "clicks": "75",
+    "reach": "360814"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Notoriedad",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "66.38",
+    "impressions": "220730",
+    "clicks": "462",
+    "reach": "208478"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Clicks",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "204.14",
+    "impressions": "140198",
+    "clicks": "2156",
+    "reach": "52906"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Noches de Autorápido · Store Visit",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "323.59",
+    "impressions": "711958",
+    "clicks": "100",
+    "reach": "413945"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Notoriedad",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "287.2",
+    "impressions": "976990",
+    "clicks": "2127",
+    "reach": "661532"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Clicks",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "200.05",
+    "impressions": "127505",
+    "clicks": "2518",
+    "reach": "46560"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Store Visit",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "367.01",
+    "impressions": "545660",
+    "clicks": "2044",
+    "reach": "462942"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Notoriedad",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "91.58",
+    "impressions": "271038",
+    "clicks": "135",
+    "reach": "260560"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Picante · Store Visit",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "262.2",
+    "impressions": "655395",
+    "clicks": "1661",
+    "reach": "475739"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Noches de Autorápido · Store Visit",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "286.89",
+    "impressions": "697537",
+    "clicks": "105",
+    "reach": "570606"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Notoriedad",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "234.8",
+    "impressions": "700253",
+    "clicks": "1459",
+    "reach": "488246"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Clicks",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "221.08",
+    "impressions": "134137",
+    "clicks": "2890",
+    "reach": "54322"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Store Visit",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "426.05",
+    "impressions": "568830",
+    "clicks": "2174",
+    "reach": "483556"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Notoriedad",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "114.63",
+    "impressions": "302307",
+    "clicks": "138",
+    "reach": "302307"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Picante · Store Visit",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "615.71",
+    "impressions": "1360625",
+    "clicks": "4188",
+    "reach": "950861"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Noches de Autorápido · Store Visit",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "312.08",
+    "impressions": "710100",
+    "clicks": "2015",
+    "reach": "569987"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Notoriedad",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "236.89",
+    "impressions": "605539",
+    "clicks": "1468",
+    "reach": "431963"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Clicks",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "192.95",
+    "impressions": "131158",
+    "clicks": "5281",
+    "reach": "43065"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Store Visit",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "411.39",
+    "impressions": "593773",
+    "clicks": "2184",
+    "reach": "511856"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Notoriedad",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "157.75",
+    "impressions": "380440",
+    "clicks": "179",
+    "reach": "375060"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Picante · Store Visit",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "597.54",
+    "impressions": "1331391",
+    "clicks": "3850",
+    "reach": "985229"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Jueves de Autorápido · Store Visit",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "285.07",
+    "impressions": "644631",
+    "clicks": "1009",
+    "reach": "613305"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Noches de Autorápido · Store Visit",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "459.93",
+    "impressions": "1086018",
+    "clicks": "2816",
+    "reach": "841829"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Notoriedad",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "190.16",
+    "impressions": "493605",
+    "clicks": "1448",
+    "reach": "366130"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Clicks",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "433.83",
+    "impressions": "274319",
+    "clicks": "6163",
+    "reach": "95217"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Store Visit",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "317.12",
+    "impressions": "532598",
+    "clicks": "106",
+    "reach": "476543"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Notoriedad",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "397.94",
+    "impressions": "933659",
+    "clicks": "2390",
+    "reach": "897569"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Picante · Store Visit",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "1678.18",
+    "impressions": "3836561",
+    "clicks": "11446",
+    "reach": "2055698"
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "campaign": "Pasa y Disfruta · Views",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "124.42",
+    "impressions": "509954",
+    "clicks": "1214",
+    "reach": "390306"
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "campaign": "Pasa y Disfruta · Views",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "215.45",
+    "impressions": "658799",
+    "clicks": "1743",
+    "reach": "452088"
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "campaign": "Pasa y Disfruta · Views",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "218.31",
+    "impressions": "904874",
+    "clicks": "1533",
+    "reach": "668721"
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "campaign": "Pasa y Disfruta · Views",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "193.8",
+    "impressions": "763143",
+    "clicks": "1321",
+    "reach": "630523"
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "campaign": "Pasa y Disfruta · Views",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "183.14",
+    "impressions": "905489",
+    "clicks": "1653",
+    "reach": "730574"
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "campaign": "Pasa y Disfruta · PMax Store Visit",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "45.97",
+    "impressions": "25483",
+    "clicks": "477",
+    "reach": "20191"
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "campaign": "Pasa y Disfruta · PMax Store Visit",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "320.25",
+    "impressions": "188786",
+    "clicks": "2570",
+    "reach": "129496"
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "campaign": "Pasa y Disfruta · PMax Store Visit",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "413.35",
+    "impressions": "276340",
+    "clicks": "4541",
+    "reach": "184688"
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "campaign": "Pasa y Disfruta · PMax Store Visit",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "288.79",
+    "impressions": "227029",
+    "clicks": "4127",
+    "reach": "152623"
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "campaign": "Pasa y Disfruta · PMax Store Visit",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "276.41",
+    "impressions": "282637",
+    "clicks": "4012",
+    "reach": "175401"
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "515.23",
+    "impressions": "2074071",
+    "clicks": "4085",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "1077.06",
+    "impressions": "2944064",
+    "clicks": "7616",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "986.67",
+    "impressions": "2323654",
+    "clicks": "9160",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "1888.61",
+    "impressions": "4342264",
+    "clicks": "10216",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "2973.13",
+    "impressions": "6839220",
+    "clicks": "10709",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "179.11",
+    "impressions": "1311294",
+    "clicks": "2029",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "303.23",
+    "impressions": "1785739",
+    "clicks": "2745",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "977.1",
+    "impressions": "4843024",
+    "clicks": "6462",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "889.67",
+    "impressions": "4518253",
+    "clicks": "6427",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "1636.52",
+    "impressions": "10543143",
+    "clicks": "14843",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "135.43",
+    "impressions": "215242",
+    "clicks": "22683",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "691.57",
+    "impressions": "622943",
+    "clicks": "32601",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "459.48",
+    "impressions": "422326",
+    "clicks": "9887",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "954.21",
+    "impressions": "609268",
+    "clicks": "832",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "2130.14",
+    "impressions": "967237",
+    "clicks": "3561",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Google Ads",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S40",
+    "week_start": "2026-10-01",
+    "week_end": "2026-10-04",
+    "spend": "87.79",
+    "impressions": "63713",
+    "clicks": "1281",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Google Ads",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S41",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "spend": "165.98",
+    "impressions": "147273",
+    "clicks": "2076",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Google Ads",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S42",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "spend": "316.77",
+    "impressions": "308635",
+    "clicks": "3129",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Google Ads",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S43",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "spend": "390.05",
+    "impressions": "240609",
+    "clicks": "3691",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Google Ads",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S44",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "spend": "507.98",
+    "impressions": "299718",
+    "clicks": "5217",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Notoriedad",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "45.78",
+    "impressions": "165542",
+    "clicks": "546",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Pasa y Disfruta · Clicks",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "258.74",
+    "impressions": "196206",
+    "clicks": "3036",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Picante · Store Visit",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "341.07",
+    "impressions": "1178809",
+    "clicks": "3427",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Store Visit",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "206.03",
+    "impressions": "474429",
+    "clicks": "103",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Martes Loco · Notoriedad",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "64.28",
+    "impressions": "214846",
+    "clicks": "386",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Jueves de Autorápido · Store Visit",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "298.66",
+    "impressions": "988645",
+    "clicks": "2694",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "campaign": "Noches de Autorápido · Store Visit",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "244.71",
+    "impressions": "722383",
+    "clicks": "1911",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "campaign": "Pasa y Disfruta · Views",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "207.38",
+    "impressions": "964986",
+    "clicks": "1794",
+    "reach": "0"
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "campaign": "Pasa y Disfruta · PMax Store Visit",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "262.31",
+    "impressions": "251054",
+    "clicks": "3852",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "1597.77",
+    "impressions": "4545700",
+    "clicks": "12116",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "1062.78",
+    "impressions": "6878254",
+    "clicks": "10689",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "649.38",
+    "impressions": "416939",
+    "clicks": "892",
+    "reach": "0"
+   },
+   {
+    "brand": "helados",
+    "platform": "Google Ads",
+    "campaign": "Helados (todas las campañas)",
+    "week": "S45",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "spend": "753.22",
+    "impressions": "452272",
+    "clicks": "7792",
+    "reach": "0"
+   }
+  ],
+  "alcance_ajustado": [
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "week": "S40",
+    "reach": 567339
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "week": "S41",
+    "reach": 1696370
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "week": "S42",
+    "reach": 2107204
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "week": "S43",
+    "reach": 2193931
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "week": "S44",
+    "reach": 3397560
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "week": "S40",
+    "reach": 1392867
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "week": "S41",
+    "reach": 1479773
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "week": "S42",
+    "reach": 1397100
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "week": "S43",
+    "reach": 2041298
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "week": "S44",
+    "reach": 2742929
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "week": "S40",
+    "reach": 697610
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "week": "S41",
+    "reach": 813777
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "week": "S42",
+    "reach": 2167881
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "week": "S43",
+    "reach": 2596914
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "week": "S44",
+    "reach": 3060650
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "week": "S40",
+    "reach": 137960
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "week": "S41",
+    "reach": 364833
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "week": "S42",
+    "reach": 321887
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "week": "S43",
+    "reach": 432259
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "week": "S44",
+    "reach": 447019
+   },
+   {
+    "brand": "auto",
+    "platform": "Meta",
+    "week": "S45",
+    "reach": 2055362
+   },
+   {
+    "brand": "auto",
+    "platform": "TikTok",
+    "week": "S45",
+    "reach": 789624
+   },
+   {
+    "brand": "auto",
+    "platform": "Google Ads",
+    "week": "S45",
+    "reach": 158658
+   },
+   {
+    "brand": "helados",
+    "platform": "Meta",
+    "week": "S45",
+    "reach": 2132231
+   },
+   {
+    "brand": "helados",
+    "platform": "DV360",
+    "week": "S45",
+    "reach": 273150
+   },
+   {
+    "brand": "helados",
+    "platform": "TikTok",
+    "week": "S45",
+    "reach": 2619049
+   }
+  ]
+ }
+}

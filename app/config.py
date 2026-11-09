@@ -32,6 +32,9 @@ class Settings(BaseSettings):
     auth_disabled_token: str = Field(default="local-dev-admin", alias="AUTH_DISABLED_TOKEN")
     auth_jwks_timeout_seconds: float = Field(default=5.0, alias="AUTH_JWKS_TIMEOUT_SECONDS")
 
+    # Reporte KFC · Autorápido y Helados: rol propio (NO Planners/admin como el resto de dashboards KFC).
+    kfc_reporte_roles: str = Field(default="kfchiden", alias="KFC_REPORTE_ROLES")
+
     app_timezone: str = Field(default="America/Guayaquil", alias="APP_TIMEZONE")
     create_db_on_startup: bool = Field(default=True, alias="CREATE_DB_ON_STARTUP")
     scheduler_enabled: bool = Field(default=True, alias="SCHEDULER_ENABLED")
@@ -50,6 +53,10 @@ class Settings(BaseSettings):
     @property
     def allowed_role_set(self) -> set[str]:
         return {role.lower() for role in _csv(self.allowed_roles)}
+
+    @property
+    def kfc_reporte_role_set(self) -> set[str]:
+        return {role.lower() for role in _csv(self.kfc_reporte_roles)}
 
     @property
     def azure_client_ids(self) -> list[str]:

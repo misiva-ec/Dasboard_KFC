@@ -49,7 +49,16 @@ The generated `.env` is configured for local/dev mode with `AUTH_DISABLED=true` 
 - `DELETE /api/kfc-onion-mundial/share`
 - `GET /api/public/kfc-onion-mundial/{shareToken}?from=2026-05-13&to=2026-08-25`
 
+- `GET /api/kfc-reporte/dashboard` (reporte Autorápido y Helados; datos de `app/data/kfc_reporte.json`, sin Windsor)
+- `POST /api/kfc-reporte/share`
+- `DELETE /api/kfc-reporte/share`
+- `GET /api/public/kfc-reporte/{shareToken}`
+
 Private endpoints require `Authorization: Bearer <MSAL idToken>` and a role of `Planners` or `admin`.
+
+The `/api/kfc-reporte/*` private endpoints are the exception: they require the role `kfchiden` (`KFC_REPORTE_ROLES`,
+comma separated), not `Planners`/`admin`. For local dev with `AUTH_DISABLED=true` (the token carries the `admin` role)
+set `KFC_REPORTE_ROLES=kfchiden,admin`. To load a new week, replace `app/data/kfc_reporte.json` and redeploy.
 
 ## Windsor fields
 

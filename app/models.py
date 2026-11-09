@@ -155,3 +155,14 @@ class KfcOnionMundialShare(Base):
     revoked_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
     created_by_oid: Mapped[Optional[str]] = mapped_column(String(128), nullable=True)
     created_by_email: Mapped[Optional[str]] = mapped_column(String(320), nullable=True)
+
+
+class KfcReporteShare(Base):
+    __tablename__ = "kfc_reporte_share"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    share_token: Mapped[str] = mapped_column(String(128), unique=True, index=True, nullable=False)
+    shared_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    revoked_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
+    created_by_oid: Mapped[Optional[str]] = mapped_column(String(128), nullable=True)
+    created_by_email: Mapped[Optional[str]] = mapped_column(String(320), nullable=True)
