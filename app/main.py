@@ -17,6 +17,7 @@ from app.constants import BASE_START_DATE
 from app.database import get_db, init_db
 from app.models import utcnow
 from app.kfc_reporte_router import router as kfc_reporte_router
+from app.tropiburger_router import router as tropiburger_router
 from app.martes_loco import MARTES_LOCO_START_DATE
 from app.martes_loco_service import (
     MartesLocoDashboardUnavailable,
@@ -119,6 +120,7 @@ app.add_middleware(
 
 
 app.include_router(kfc_reporte_router)
+app.include_router(tropiburger_router)
 
 
 @app.get("/health")
